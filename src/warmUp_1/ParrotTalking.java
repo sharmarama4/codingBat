@@ -1,2 +1,20 @@
-package warmUp_1;public class ParrotTalking {
+package warmUp_1;
+
+public class ParrotTalking {
+  /*  We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23.
+  We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return true if we are in trouble.
+
+
+    parrotTrouble(true, 6) → true
+    parrotTrouble(true, 7) → false
+    parrotTrouble(false, 6) → false*/
+    //before is less than and after is greater than
+  public boolean parrotTrouble(boolean talking, int hour) {
+      if(talking &&(hour<7 || hour>20)){
+          return true;
+      }else
+          return false;
+
+  }
+
 }

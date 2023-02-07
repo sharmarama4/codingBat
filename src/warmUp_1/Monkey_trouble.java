@@ -1,3 +1,5 @@
+package warmUp_1;
+
 public class Monkey_trouble {
 
     /*  We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling.

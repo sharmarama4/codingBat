@@ -8,5 +8,17 @@ public class LoneTeen {
     loneTeen(13, 99) → true
     loneTeen(21, 19) → true
     loneTeen(13, 13) → false*/
+  public boolean loneTeen(int a, int b) {
+      boolean aTeen = (a >= 13 && a <= 19);
+      boolean bTeen = (b >= 13 && b <= 19);
+
+      if((aTeen && !bTeen) || (!aTeen && bTeen)){
+          return true;
+
+      }else{
+          return false;
+      }
+
+  }
 
 }
